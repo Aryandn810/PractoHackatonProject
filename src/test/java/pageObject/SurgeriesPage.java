@@ -15,7 +15,7 @@ public class SurgeriesPage extends BaseClass {
 		super(driver);
 	}
 	
-	@FindBy(linkText = "Lab Tests")
+	@FindBy(xpath="//div[contains(text(),'Lab Tests')]")
 	WebElement labTest;
 	@FindBy(xpath = "//div[contains(text(),\"Aurangabad\")]")
 	WebElement AurangabadElement;
