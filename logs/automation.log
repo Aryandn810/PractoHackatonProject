@@ -130,3 +130,19 @@
 			********* Test case 7 started *********
 2024-11-08 12:25:30 INFO  TC_001_NearBy_Hospetial:31 -
 			********* Test case 7 Ended *********
+2024-11-08 12:39:31 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			-----Creating Driver-------
+2024-11-08 12:39:35 INFO  TC_002_GetDiagnosticsCenterCityName:48 -
+			-------Opening URL----------
+2024-11-08 12:40:19 INFO  TC_002_GetDiagnosticsCenterCityName:14 -
+			********* Test case 5 started *********
+2024-11-08 12:41:20 INFO  TC_002_GetDiagnosticsCenterCityName:20 -
+			********* Test case 5 Ended *********
+2024-11-08 12:41:20 INFO  TC_002_GetDiagnosticsCenterCityName:26 -
+			********* Test case 6 started *********
+2024-11-08 12:41:23 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			********* Test case 6 Ended *********
+2024-11-08 12:41:23 INFO  TC_002_GetDiagnosticsCenterCityName:21 -
+			********* Test case 7 started *********
+2024-11-08 12:41:54 INFO  TC_002_GetDiagnosticsCenterCityName:31 -
+			********* Test case 7 Ended *********
