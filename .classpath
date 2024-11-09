@@ -37,5 +37,10 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
+=======
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+>>>>>>> 0db6d405700263e897f9dcca4cc3d06ebd4fafa9
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

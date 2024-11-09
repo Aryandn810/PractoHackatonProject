@@ -12,6 +12,7 @@
       </run>
     </groups>
     <classes>
+<<<<<<< HEAD
       <class name="testCase.TC_003_WellnessCare">
         <methods>
           <include name="tearDown"/>
@@ -20,6 +21,15 @@
           <include name="ScheduleDmo"/>
         </methods>
       </class> <!-- testCase.TC_003_WellnessCare -->
+=======
+      <class name="testCase.TC_002_GetDiagnosticsCenterCityName">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getMainCityNamesofDiagnosticsCenter"/>
+          <include name="getDriver"/>
+        </methods>
+      </class> <!-- testCase.TC_002_GetDiagnosticsCenterCityName -->
+>>>>>>> 0db6d405700263e897f9dcca4cc3d06ebd4fafa9
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

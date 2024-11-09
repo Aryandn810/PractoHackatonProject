@@ -1,6 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.83 s -- in TestSuite
+=======
+>>>>>>> 0db6d405700263e897f9dcca4cc3d06ebd4fafa9
 Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 5.554 s <<< FAILURE! -- in TestSuite
 testCase.TC_002_GetDiagnosticsCenterCityName.getDriver[edge](0) -- Time elapsed: 4.628 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
@@ -56,3 +62,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
+<<<<<<< HEAD
+=======
+>>>>>>> ea637284de552754285fe5a5195040af9e5d8986
+>>>>>>> 0db6d405700263e897f9dcca4cc3d06ebd4fafa9
