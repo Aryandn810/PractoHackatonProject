@@ -53,6 +53,7 @@ public class ExtentReportManager implements ITestListener {
 		ScreenshotUtility s = new ScreenshotUtility();
 		try {
 			s.captureScreenshot(result.getName());
+			test.addScreenCaptureFromPath(ScreenshotUtility.Destination);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

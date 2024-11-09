@@ -9,17 +9,65 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">103,162</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">100,903</td><td>Regression</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testCase.TC_001_NearBy_Hospetial</td><td><a href="#m0">SearchAllHospetial</a></td><td rowspan="1">1731048765071</td><td rowspan="1">10789</td></tr><tr class="passedeven"><td><a href="#m1">SelectLocation</a></td><td rowspan="1">1731048775862</td><td rowspan="1">695</td></tr><tr class="passedeven"><td><a href="#m2">getHospetialListWithGivenFecilities</a></td><td rowspan="1">1731048776558</td><td rowspan="1">56073</td></tr><tr class="passedeven"><td><a href="#m3">validationgPagePractoPage</a></td><td rowspan="1">1731048765032</td><td rowspan="1">25</td></tr><tr class="passedodd"><td rowspan="2">testCase.TC_002_GetDiagnosticsCenterCityName</td><td><a href="#m4">ValidatingSurgeriPage</a></td><td rowspan="1">1731048832635</td><td rowspan="1">1720</td></tr><tr class="passedodd"><td><a href="#m5">getMainCityNamesofDiagnosticsCenter</a></td><td rowspan="1">1731048834357</td><td rowspan="1">7908</td></tr><tr class="passedeven"><td rowspan="2">testCase.TC_003_WellnessCare</td><td><a href="#m6">ScheduleDmo</a></td><td rowspan="1">1731048848127</td><td rowspan="1">6446</td></tr><tr class="passedeven"><td><a href="#m7">validateWellnessPage</a></td><td rowspan="1">1731048842270</td><td rowspan="1">5856</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testCase.TC_003_WellnessCare</td><td><a href="#m0">ScheduleDmo</a></td><td rowspan="1">1731065716682</td><td rowspan="1">10671</td></tr><tr class="failedeven"><td><a href="#m1">validateWellnessPage</a></td><td rowspan="1">1731065702126</td><td rowspan="1">13950</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testCase.TC_002_GetDiagnosticsCenterCityName</td><td><a href="#m2">ValidatingSurgeriPage</a></td><td rowspan="1">1731065667555</td><td rowspan="1">30786</td></tr><tr class="passedeven"><td><a href="#m3">getMainCityNamesofDiagnosticsCenter</a></td><td rowspan="1">1731065698351</td><td rowspan="1">3773</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testCase.TC_001_NearBy_Hospetial#SearchAllHospetial</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCase.TC_001_NearBy_Hospetial#SelectLocation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCase.TC_001_NearBy_Hospetial#getHospetialListWithGivenFecilities</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCase.TC_001_NearBy_Hospetial#validationgPagePractoPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testCase.TC_002_GetDiagnosticsCenterCityName#ValidatingSurgeriPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testCase.TC_002_GetDiagnosticsCenterCityName#getMainCityNamesofDiagnosticsCenter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testCase.TC_003_WellnessCare#ScheduleDmo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testCase.TC_003_WellnessCare#validateWellnessPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">testCase.TC_003_WellnessCare#ScheduleDmo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#name&quot;}
+  (Session info: chrome=128.0.6613.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bccf7ce095f49b19e82ee70200e5b62f, findElement {value=name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63119}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63119/devtoo..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bccf7ce095f49b19e82ee70200e5b62f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.sendKeys(Unknown Source)
+	at pageObject.WellnessPage.setName(WellnessPage.java:32)
+	at testCase.TC_003_WellnessCare.ScheduleDmo(TC_003_WellnessCare.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCase.TC_003_WellnessCare#validateWellnessPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&quot;/plus/corporate&quot;]&quot;}
+  (Session info: chrome=128.0.6613.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bccf7ce095f49b19e82ee70200e5b62f, findElement {value=//a[@href=&quot;/plus/corporate&quot;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63119}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63119/devtoo..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bccf7ce095f49b19e82ee70200e5b62f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.click(Unknown Source)
+	at pageObject.HomePage.clickOnWellnesslink(HomePage.java:44)
+	at testCase.TC_003_WellnessCare.validateWellnessPage(TC_003_WellnessCare.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCase.TC_002_GetDiagnosticsCenterCityName#ValidatingSurgeriPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCase.TC_002_GetDiagnosticsCenterCityName#getMainCityNamesofDiagnosticsCenter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

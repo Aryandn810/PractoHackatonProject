@@ -6,14 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCase.TC_002_GetDiagnosticsCenterCityName">
+      <class name="testCase.TC_003_WellnessCare">
         <methods>
           <include name="tearDown"/>
-          <include name="getMainCityNamesofDiagnosticsCenter"/>
+          <include name="validateWellnessPage"/>
           <include name="getDriver"/>
+          <include name="ScheduleDmo"/>
         </methods>
-      </class> <!-- testCase.TC_002_GetDiagnosticsCenterCityName -->
+      </class> <!-- testCase.TC_003_WellnessCare -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\2361593\eclipse-workspace\HackathonProject\testng.xml</span>
+                    <span>C:\Users\2361593\eclipse-workspace\HackathonProject\groping.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_003_WellnessCare" class="method navigator-link" hash-for-method="ScheduleDmo">ScheduleDmo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_003_WellnessCare" class="method navigator-link" hash-for-method="validateWellnessPage">validateWellnessPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,42 +123,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC_003_WellnessCare" class="method navigator-link" hash-for-method="ScheduleDmo">ScheduleDmo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC_001_NearBy_Hospetial" class="method navigator-link" hash-for-method="SearchAllHospetial">SearchAllHospetial</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC_001_NearBy_Hospetial" class="method navigator-link" hash-for-method="SelectLocation">SelectLocation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCase.TC_002_GetDiagnosticsCenterCityName" class="method navigator-link" hash-for-method="ValidatingSurgeriPage">ValidatingSurgeriPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC_001_NearBy_Hospetial" class="method navigator-link" hash-for-method="getHospetialListWithGivenFecilities">getHospetialListWithGivenFecilities</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCase.TC_002_GetDiagnosticsCenterCityName" class="method navigator-link" hash-for-method="getMainCityNamesofDiagnosticsCenter">getMainCityNamesofDiagnosticsCenter</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC_003_WellnessCare" class="method navigator-link" hash-for-method="validateWellnessPage">validateWellnessPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC_001_NearBy_Hospetial" class="method navigator-link" hash-for-method="validationgPagePractoPage">validationgPagePractoPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -154,42 +143,84 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCase.TC_001_NearBy_Hospetial</span>
+              <img src="failed.png"/>
+              <span class="class-name">testCase.TC_003_WellnessCare</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SearchAllHospetial">
-                  </a> <!-- SearchAllHospetial -->
-                  <span class="method-name">SearchAllHospetial</span>
+                  <a name="ScheduleDmo">
+                  </a> <!-- ScheduleDmo -->
+                  <span class="method-name">ScheduleDmo</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#name&quot;}
+  (Session info: chrome=128.0.6613.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bccf7ce095f49b19e82ee70200e5b62f, findElement {value=name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63119}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63119/devtoo..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bccf7ce095f49b19e82ee70200e5b62f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.sendKeys(Unknown Source)
+	at pageObject.WellnessPage.setName(WellnessPage.java:32)
+	at testCase.TC_003_WellnessCare.ScheduleDmo(TC_003_WellnessCare.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SelectLocation">
-                  </a> <!-- SelectLocation -->
-                  <span class="method-name">SelectLocation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getHospetialListWithGivenFecilities">
-                  </a> <!-- getHospetialListWithGivenFecilities -->
-                  <span class="method-name">getHospetialListWithGivenFecilities</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validationgPagePractoPage">
-                  </a> <!-- validationgPagePractoPage -->
-                  <span class="method-name">validationgPagePractoPage</span>
+                  <a name="validateWellnessPage">
+                  </a> <!-- validateWellnessPage -->
+                  <span class="method-name">validateWellnessPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&quot;/plus/corporate&quot;]&quot;}
+  (Session info: chrome=128.0.6613.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bccf7ce095f49b19e82ee70200e5b62f, findElement {value=//a[@href=&quot;/plus/corporate&quot;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63119}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63119/devtoo..., se:cdpVersion: 128.0.6613.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bccf7ce095f49b19e82ee70200e5b62f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.click(Unknown Source)
+	at pageObject.HomePage.clickOnWellnesslink(HomePage.java:44)
+	at testCase.TC_003_WellnessCare.validateWellnessPage(TC_003_WellnessCare.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -212,45 +243,32 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCase.TC_003_WellnessCare</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ScheduleDmo">
-                  </a> <!-- ScheduleDmo -->
-                  <span class="method-name">ScheduleDmo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateWellnessPage">
-                  </a> <!-- validateWellnessPage -->
-                  <span class="method-name">validateWellnessPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\2361593\eclipse-workspace\HackathonProject\testng.xml</span>
+            <span class="header-content">C:\Users\2361593\eclipse-workspace\HackathonProject\groping.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;Regression&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;Regression&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;browserName&quot; value=&quot;edge&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCase.TC_001_NearBy_Hospetial&quot;/&gt;
       &lt;class name=&quot;testCase.TC_002_GetDiagnosticsCenterCityName&quot;/&gt;
       &lt;class name=&quot;testCase.TC_003_WellnessCare&quot;/&gt;
     &lt;/classes&gt;
@@ -266,7 +284,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -280,27 +298,11 @@
               <span class="test-group-name">Master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">SearchAllHospetial</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">SelectLocation</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
                 <span class="method-in-group-name">ValidatingSurgeriPage</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">getHospetialListWithGivenFecilities</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
                 <span class="method-in-group-name">getMainCityNamesofDiagnosticsCenter</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">validationgPagePractoPage</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -328,27 +330,11 @@
               <span class="test-group-name">Sanity</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">SearchAllHospetial</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">SelectLocation</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
                 <span class="method-in-group-name">ValidatingSurgeriPage</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">getHospetialListWithGivenFecilities</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
                 <span class="method-in-group-name">getMainCityNamesofDiagnosticsCenter</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">validationgPagePractoPage</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -368,44 +354,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getHospetialListWithGivenFecilities')
-data.setCell(0, 2, 'testCase.TC_001_NearBy_Hospetial')
-data.setCell(0, 3, 56073);
+data.setCell(0, 1, 'ValidatingSurgeriPage')
+data.setCell(0, 2, 'testCase.TC_002_GetDiagnosticsCenterCityName')
+data.setCell(0, 3, 30786);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SearchAllHospetial')
-data.setCell(1, 2, 'testCase.TC_001_NearBy_Hospetial')
-data.setCell(1, 3, 10789);
+data.setCell(1, 1, 'validateWellnessPage')
+data.setCell(1, 2, 'testCase.TC_003_WellnessCare')
+data.setCell(1, 3, 13950);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'getMainCityNamesofDiagnosticsCenter')
-data.setCell(2, 2, 'testCase.TC_002_GetDiagnosticsCenterCityName')
-data.setCell(2, 3, 7908);
+data.setCell(2, 1, 'ScheduleDmo')
+data.setCell(2, 2, 'testCase.TC_003_WellnessCare')
+data.setCell(2, 3, 10671);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ScheduleDmo')
-data.setCell(3, 2, 'testCase.TC_003_WellnessCare')
-data.setCell(3, 3, 6446);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validateWellnessPage')
-data.setCell(4, 2, 'testCase.TC_003_WellnessCare')
-data.setCell(4, 3, 5856);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'ValidatingSurgeriPage')
-data.setCell(5, 2, 'testCase.TC_002_GetDiagnosticsCenterCityName')
-data.setCell(5, 3, 1720);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'SelectLocation')
-data.setCell(6, 2, 'testCase.TC_001_NearBy_Hospetial')
-data.setCell(6, 3, 695);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validationgPagePractoPage')
-data.setCell(7, 2, 'testCase.TC_001_NearBy_Hospetial')
-data.setCell(7, 3, 25);
+data.setCell(3, 1, 'getMainCityNamesofDiagnosticsCenter')
+data.setCell(3, 2, 'testCase.TC_002_GetDiagnosticsCenterCityName')
+data.setCell(3, 3, 3773);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -420,18 +390,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCase.TC_002_GetDiagnosticsCenterCityName</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">getDriver</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">testCase.TC_003_WellnessCare</span>
               <div class="ignored-methods-div">
@@ -449,55 +410,40 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCase.TC_001_NearBy_Hospetial</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCase.TC_002_GetDiagnosticsCenterCityName</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">getDriver(edge)</span>
+                <span class="method-name">getDriver(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">validationgPagePractoPage</span>
-                <span class="method-start">8338 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SearchAllHospetial</span>
-                <span class="method-start">8377 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectLocation</span>
-                <span class="method-start">19168 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">getHospetialListWithGivenFecilities</span>
-                <span class="method-start">19864 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCase.TC_002_GetDiagnosticsCenterCityName</div> <!-- chronological-class-name -->
-              <div class="test-method">
                 <span class="method-name">ValidatingSurgeriPage</span>
-                <span class="method-start">75941 ms</span>
+                <span class="method-start">37540 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getMainCityNamesofDiagnosticsCenter</span>
-                <span class="method-start">77663 ms</span>
+                <span class="method-start">68336 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCase.TC_003_WellnessCare</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">validateWellnessPage</span>
-                <span class="method-start">85576 ms</span>
+                <span class="method-start">72111 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">ScheduleDmo</span>
-                <span class="method-start">91433 ms</span>
+                <span class="method-start">86667 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testCase.TC_001_NearBy_Hospetial</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCase.TC_002_GetDiagnosticsCenterCityName</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">97880 ms</span>
+                <span class="method-start">97642 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
