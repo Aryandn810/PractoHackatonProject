@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-08T12:39:30 IST" name="Suite" finished-at="2024-11-08T12:42:35 IST" duration-ms="184447">
+  <suite started-at="2024-11-09T16:01:43 IST" name="Suite" finished-at="2024-11-09T16:02:05 IST" duration-ms="21888">
     <groups>
       <group name="Master">
-        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@1ce61929]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
-        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@1ce61929]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@158a3b2e]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@158a3b2e]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@1ce61929]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
-        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@1ce61929]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@158a3b2e]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@158a3b2e]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@1ce61929]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
-        <method signature="TC_003_WellnessCare.validateWellnessPage()[pri:1, instance:testCase.TC_003_WellnessCare@59d2103b]" name="validateWellnessPage" class="testCase.TC_003_WellnessCare"/>
-        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@1ce61929]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
-        <method signature="TC_003_WellnessCare.ScheduleDmo()[pri:2, instance:testCase.TC_003_WellnessCare@59d2103b]" name="ScheduleDmo" class="testCase.TC_003_WellnessCare"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@158a3b2e]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_003_WellnessCare.validateWellnessPage()[pri:1, instance:testCase.TC_003_WellnessCare@1d131e1b]" name="validateWellnessPage" class="testCase.TC_003_WellnessCare"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@158a3b2e]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_003_WellnessCare.ScheduleDmo()[pri:2, instance:testCase.TC_003_WellnessCare@1d131e1b]" name="ScheduleDmo" class="testCase.TC_003_WellnessCare"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-11-08T12:39:30 IST" name="Test" finished-at="2024-11-08T12:42:35 IST" duration-ms="184447">
+    <test started-at="2024-11-09T16:01:43 IST" name="Test" finished-at="2024-11-09T16:02:05 IST" duration-ms="21888">
       <class name="testCase.TC_003_WellnessCare">
-        <test-method signature="validateWellnessPage()[pri:1, instance:testCase.TC_003_WellnessCare@59d2103b]" started-at="2024-11-08T12:41:23 IST" name="validateWellnessPage" finished-at="2024-11-08T12:41:54 IST" duration-ms="30600" status="PASS">
+        <test-method signature="validateWellnessPage()[pri:1, instance:testCase.TC_003_WellnessCare@1d131e1b]" started-at="2024-11-09T16:01:57 IST" name="validateWellnessPage" finished-at="2024-11-09T16:01:59 IST" duration-ms="1644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateWellnessPage -->
-        <test-method signature="ScheduleDmo()[pri:2, instance:testCase.TC_003_WellnessCare@59d2103b]" started-at="2024-11-08T12:41:54 IST" name="ScheduleDmo" finished-at="2024-11-08T12:42:28 IST" duration-ms="33974" status="PASS">
+        <test-method signature="ScheduleDmo()[pri:2, instance:testCase.TC_003_WellnessCare@1d131e1b]" started-at="2024-11-09T16:01:59 IST" name="ScheduleDmo" finished-at="2024-11-09T16:02:03 IST" duration-ms="4249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ScheduleDmo -->
       </class> <!-- testCase.TC_003_WellnessCare -->
       <class name="testCase.TC_002_GetDiagnosticsCenterCityName">
-        <test-method is-config="true" signature="getDriver(java.lang.String)[pri:0, instance:testCase.TC_002_GetDiagnosticsCenterCityName@1ce61929]" started-at="2024-11-08T12:39:31 IST" name="getDriver" finished-at="2024-11-08T12:40:19 IST" duration-ms="48003" status="PASS">
+        <test-method is-config="true" signature="getDriver(java.lang.String)[pri:0, instance:testCase.TC_002_GetDiagnosticsCenterCityName@158a3b2e]" started-at="2024-11-09T16:01:43 IST" name="getDriver" finished-at="2024-11-09T16:01:52 IST" duration-ms="9070" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,15 +42,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method signature="ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@1ce61929]" started-at="2024-11-08T12:40:19 IST" name="ValidatingSurgeriPage" finished-at="2024-11-08T12:41:20 IST" duration-ms="60901" status="PASS">
+        <test-method signature="ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@158a3b2e]" started-at="2024-11-09T16:01:52 IST" name="ValidatingSurgeriPage" finished-at="2024-11-09T16:01:53 IST" duration-ms="943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatingSurgeriPage -->
-        <test-method signature="getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@1ce61929]" started-at="2024-11-08T12:41:20 IST" name="getMainCityNamesofDiagnosticsCenter" finished-at="2024-11-08T12:41:23 IST" duration-ms="3523" status="PASS">
+        <test-method signature="getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@158a3b2e]" started-at="2024-11-09T16:01:53 IST" name="getMainCityNamesofDiagnosticsCenter" finished-at="2024-11-09T16:01:57 IST" duration-ms="4188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMainCityNamesofDiagnosticsCenter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_002_GetDiagnosticsCenterCityName@1ce61929]" started-at="2024-11-08T12:42:28 IST" name="tearDown" finished-at="2024-11-08T12:42:35 IST" duration-ms="7187" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_002_GetDiagnosticsCenterCityName@158a3b2e]" started-at="2024-11-09T16:02:03 IST" name="tearDown" finished-at="2024-11-09T16:02:05 IST" duration-ms="1496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
