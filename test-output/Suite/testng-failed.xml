@@ -5,7 +5,12 @@
     <listener class-name="Utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="browserName" value="edge"/>
+    <parameter name="browserName" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
     <classes>
       <class name="testCase.TC_002_GetDiagnosticsCenterCityName">
         <methods>

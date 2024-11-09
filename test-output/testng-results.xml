@@ -1,106 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="12" passed="7" failed="1" skipped="0">
+<testng-results ignored="2" total="6" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-09T16:09:00 IST" name="Suite" finished-at="2024-11-09T16:10:46 IST" duration-ms="105715">
+  <suite started-at="2024-11-09T16:42:48 IST" name="Suite" finished-at="2024-11-09T16:43:01 IST" duration-ms="13160">
     <groups>
       <group name="Master">
-        <method signature="TC_001_NearBy_Hospetial.SearchAllHospetial()[pri:2, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" name="SearchAllHospetial" class="testCase.TC_001_NearBy_Hospetial"/>
-        <method signature="TC_001_NearBy_Hospetial.SelectLocation()[pri:3, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" name="SelectLocation" class="testCase.TC_001_NearBy_Hospetial"/>
-        <method signature="TC_001_NearBy_Hospetial.getHospetialListWithGivenFecilities()[pri:4, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" name="getHospetialListWithGivenFecilities" class="testCase.TC_001_NearBy_Hospetial"/>
-        <method signature="TC_001_NearBy_Hospetial.validationgPagePractoPage()[pri:1, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" name="validationgPagePractoPage" class="testCase.TC_001_NearBy_Hospetial"/>
-        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@6f03482]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
-        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@6f03482]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@7586beff]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@7586beff]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC_001_NearBy_Hospetial.SearchAllHospetial()[pri:2, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" name="SearchAllHospetial" class="testCase.TC_001_NearBy_Hospetial"/>
-        <method signature="TC_001_NearBy_Hospetial.SelectLocation()[pri:3, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" name="SelectLocation" class="testCase.TC_001_NearBy_Hospetial"/>
-        <method signature="TC_001_NearBy_Hospetial.getHospetialListWithGivenFecilities()[pri:4, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" name="getHospetialListWithGivenFecilities" class="testCase.TC_001_NearBy_Hospetial"/>
-        <method signature="TC_001_NearBy_Hospetial.validationgPagePractoPage()[pri:1, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" name="validationgPagePractoPage" class="testCase.TC_001_NearBy_Hospetial"/>
-        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@6f03482]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
-        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@6f03482]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@7586beff]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@7586beff]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@6f03482]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
-        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@6f03482]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
-        <method signature="TC_003_WellnessCare.ScheduleDmo()[pri:2, instance:testCase.TC_003_WellnessCare@9d5509a]" name="ScheduleDmo" class="testCase.TC_003_WellnessCare"/>
-        <method signature="TC_003_WellnessCare.validateWellnessPage()[pri:1, instance:testCase.TC_003_WellnessCare@9d5509a]" name="validateWellnessPage" class="testCase.TC_003_WellnessCare"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@7586beff]" name="ValidatingSurgeriPage" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_002_GetDiagnosticsCenterCityName.getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@7586beff]" name="getMainCityNamesofDiagnosticsCenter" class="testCase.TC_002_GetDiagnosticsCenterCityName"/>
+        <method signature="TC_003_WellnessCare.ScheduleDmo()[pri:2, instance:testCase.TC_003_WellnessCare@6a78afa0]" name="ScheduleDmo" class="testCase.TC_003_WellnessCare"/>
+        <method signature="TC_003_WellnessCare.validateWellnessPage()[pri:1, instance:testCase.TC_003_WellnessCare@6a78afa0]" name="validateWellnessPage" class="testCase.TC_003_WellnessCare"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-11-09T16:09:00 IST" name="Test" finished-at="2024-11-09T16:10:46 IST" duration-ms="105715">
-      <class name="testCase.TC_001_NearBy_Hospetial">
-        <test-method is-config="true" signature="getDriver(java.lang.String)[pri:0, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" started-at="2024-11-09T16:09:00 IST" name="getDriver" finished-at="2024-11-09T16:09:07 IST" duration-ms="7014" status="PASS">
+    <test started-at="2024-11-09T16:42:48 IST" name="Test" finished-at="2024-11-09T16:43:01 IST" duration-ms="13160">
+      <class name="testCase.TC_003_WellnessCare">
+        <test-method signature="validateWellnessPage()[pri:1, instance:testCase.TC_003_WellnessCare@6a78afa0]" started-at="2024-11-09T16:42:55 IST" name="validateWellnessPage" finished-at="2024-11-09T16:42:57 IST" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWellnessPage -->
+        <test-method signature="ScheduleDmo()[pri:2, instance:testCase.TC_003_WellnessCare@6a78afa0]" started-at="2024-11-09T16:42:57 IST" name="ScheduleDmo" finished-at="2024-11-09T16:43:01 IST" duration-ms="3906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScheduleDmo -->
+      </class> <!-- testCase.TC_003_WellnessCare -->
+      <class name="testCase.TC_002_GetDiagnosticsCenterCityName">
+        <test-method is-config="true" signature="getDriver(java.lang.String)[pri:0, instance:testCase.TC_002_GetDiagnosticsCenterCityName@7586beff]" started-at="2024-11-09T16:42:48 IST" name="getDriver" finished-at="2024-11-09T16:42:52 IST" duration-ms="3907" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method signature="validationgPagePractoPage()[pri:1, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" started-at="2024-11-09T16:09:07 IST" name="validationgPagePractoPage" finished-at="2024-11-09T16:09:08 IST" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validationgPagePractoPage -->
-        <test-method signature="SearchAllHospetial()[pri:2, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" started-at="2024-11-09T16:09:08 IST" name="SearchAllHospetial" finished-at="2024-11-09T16:09:13 IST" duration-ms="5543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchAllHospetial -->
-        <test-method signature="SelectLocation()[pri:3, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" started-at="2024-11-09T16:09:13 IST" name="SelectLocation" finished-at="2024-11-09T16:09:14 IST" duration-ms="1001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectLocation -->
-        <test-method signature="getHospetialListWithGivenFecilities()[pri:4, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" started-at="2024-11-09T16:09:14 IST" name="getHospetialListWithGivenFecilities" finished-at="2024-11-09T16:10:04 IST" duration-ms="49514" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getHospetialListWithGivenFecilities -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_001_NearBy_Hospetial@3eb25e1a]" started-at="2024-11-09T16:10:44 IST" name="tearDown" finished-at="2024-11-09T16:10:46 IST" duration-ms="1540" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCase.TC_001_NearBy_Hospetial -->
-      <class name="testCase.TC_003_WellnessCare">
-        <test-method signature="validateWellnessPage()[pri:1, instance:testCase.TC_003_WellnessCare@9d5509a]" started-at="2024-11-09T16:10:20 IST" name="validateWellnessPage" finished-at="2024-11-09T16:10:25 IST" duration-ms="4818" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateWellnessPage -->
-        <test-method signature="ScheduleDmo()[pri:2, instance:testCase.TC_003_WellnessCare@9d5509a]" started-at="2024-11-09T16:10:25 IST" name="ScheduleDmo" finished-at="2024-11-09T16:10:44 IST" duration-ms="19016" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ScheduleDmo -->
-      </class> <!-- testCase.TC_003_WellnessCare -->
-      <class name="testCase.TC_002_GetDiagnosticsCenterCityName">
-        <test-method signature="ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@6f03482]" started-at="2024-11-09T16:10:04 IST" name="ValidatingSurgeriPage" finished-at="2024-11-09T16:10:05 IST" duration-ms="1681" status="PASS">
+        <test-method signature="ValidatingSurgeriPage()[pri:1, instance:testCase.TC_002_GetDiagnosticsCenterCityName@7586beff]" started-at="2024-11-09T16:42:52 IST" name="ValidatingSurgeriPage" finished-at="2024-11-09T16:42:54 IST" duration-ms="1398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatingSurgeriPage -->
-        <test-method signature="getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@6f03482]" started-at="2024-11-09T16:10:05 IST" name="getMainCityNamesofDiagnosticsCenter" finished-at="2024-11-09T16:10:20 IST" duration-ms="14873" status="FAIL">
+        <test-method signature="getMainCityNamesofDiagnosticsCenter()[pri:2, instance:testCase.TC_002_GetDiagnosticsCenterCityName@7586beff]" started-at="2024-11-09T16:42:54 IST" name="getMainCityNamesofDiagnosticsCenter" finished-at="2024-11-09T16:42:55 IST" duration-ms="1204" status="FAIL">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: stale element not found in the current frame
-  (Session info: MicrosoftEdge=130.0.2849.46)
+  (Session info: chrome=130.0.6723.117)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b4bc21aa5a361c5f566cd8a9448e8d24, isElementDisplayed {id=f.6C06AED8658F3ECE78459E19605CCA2E.d.2CBCB7FB201CEF4B001725186A5C9555.e.12917}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54599}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\aryan\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54599/devtoo..., se:cdpVersion: 130.0.2849.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (b4bc21aa5a361c5f566cd8a9448e8d24)] -> xpath: //div[contains(text(),'Lab Tests')]]
-Session ID: b4bc21aa5a361c5f566cd8a9448e8d24]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb1e0f41ada26c7e8d88271ade517ed5, isElementDisplayed {id=f.22EB571839AE337C55577EB1A37CD54B.d.308858CA483B16844FD0EC81C6CC831D.e.2350}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\aryan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56067/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bb1e0f41ada26c7e8d88271ade517ed5)] -> xpath: //div[contains(text(),'Lab Tests')]]
+Session ID: bb1e0f41ada26c7e8d88271ade517ed5]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: MicrosoftEdge=130.0.2849.46)
+  (Session info: chrome=130.0.6723.117)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b4bc21aa5a361c5f566cd8a9448e8d24, isElementDisplayed {id=f.6C06AED8658F3ECE78459E19605CCA2E.d.2CBCB7FB201CEF4B001725186A5C9555.e.12917}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.46, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54599}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\aryan\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54599/devtoo..., se:cdpVersion: 130.0.2849.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (b4bc21aa5a361c5f566cd8a9448e8d24)] -> xpath: //div[contains(text(),'Lab Tests')]]
-Session ID: b4bc21aa5a361c5f566cd8a9448e8d24
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb1e0f41ada26c7e8d88271ade517ed5, isElementDisplayed {id=f.22EB571839AE337C55577EB1A37CD54B.d.308858CA483B16844FD0EC81C6CC831D.e.2350}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\aryan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56067/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bb1e0f41ada26c7e8d88271ade517ed5)] -> xpath: //div[contains(text(),'Lab Tests')]]
+Session ID: bb1e0f41ada26c7e8d88271ade517ed5
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -155,6 +125,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMainCityNamesofDiagnosticsCenter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_002_GetDiagnosticsCenterCityName@7586beff]" started-at="2024-11-09T16:43:01 IST" name="tearDown" finished-at="2024-11-09T16:43:01 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testCase.TC_002_GetDiagnosticsCenterCityName -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

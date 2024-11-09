@@ -22,7 +22,7 @@ public class ExtentReportManager implements ITestListener {
 
 	public void onStart(ITestContext context) {
 		Date date = new Date();
-		SimpleDateFormat df = new SimpleDateFormat("yyyy.MM.dd.HH.MM.ss");
+		SimpleDateFormat df = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
 		String date1 = df.format(date);
 		String FileName = System.getProperty("user.dir")+"\\reports\\" + date1 + ".html";
 		sparkReporter = new ExtentSparkReporter(FileName);
@@ -53,6 +53,7 @@ public class ExtentReportManager implements ITestListener {
 		ScreenshotUtility s = new ScreenshotUtility();
 		try {
 			s.captureScreenshot(result.getName());
+			test.addScreenCaptureFromPath(ScreenshotUtility.Destination);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

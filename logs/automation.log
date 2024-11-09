@@ -146,6 +146,7 @@
 			********* Test case 7 started *********
 2024-11-08 12:41:54 INFO  TC_002_GetDiagnosticsCenterCityName:31 -
 			********* Test case 7 Ended *********
+<<<<<<< HEAD
 2024-11-09 16:01:43 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
 			-----Creating Driver-------
 2024-11-09 16:01:50 INFO  TC_002_GetDiagnosticsCenterCityName:48 -
@@ -239,4 +240,156 @@
 2024-11-09 16:10:20 INFO  TC_001_NearBy_Hospetial:21 -
 			********* Test case 7 started *********
 2024-11-09 16:10:25 INFO  TC_001_NearBy_Hospetial:31 -
+			********* Test case 7 Ended *********
+=======
+2024-11-08 14:31:57 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			-----Creating Driver-------
+2024-11-08 16:49:49 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			-----Creating Driver-------
+2024-11-08 16:49:58 INFO  TC_002_GetDiagnosticsCenterCityName:48 -
+			-------Opening URL----------
+2024-11-08 16:50:46 INFO  TC_002_GetDiagnosticsCenterCityName:14 -
+			********* Test case 5 started *********
+2024-11-08 16:51:32 INFO  TC_002_GetDiagnosticsCenterCityName:20 -
+			********* Test case 5 Ended *********
+2024-11-08 16:51:32 INFO  TC_002_GetDiagnosticsCenterCityName:26 -
+			********* Test case 6 started *********
+2024-11-08 16:51:33 INFO  TC_002_GetDiagnosticsCenterCityName:21 -
+			********* Test case 7 started *********
+2024-11-08 16:52:11 INFO  TC_002_GetDiagnosticsCenterCityName:31 -
+			********* Test case 7 Ended *********
+2024-11-08 16:55:42 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			-----Creating Driver-------
+2024-11-08 16:55:45 INFO  TC_002_GetDiagnosticsCenterCityName:48 -
+			-------Opening URL----------
+2024-11-08 16:56:20 INFO  TC_002_GetDiagnosticsCenterCityName:14 -
+			********* Test case 5 started *********
+2024-11-08 16:56:51 INFO  TC_002_GetDiagnosticsCenterCityName:20 -
+			********* Test case 5 Ended *********
+2024-11-08 16:56:51 INFO  TC_002_GetDiagnosticsCenterCityName:26 -
+			********* Test case 6 started *********
+2024-11-08 16:56:55 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			********* Test case 6 Ended *********
+2024-11-08 16:56:55 INFO  TC_002_GetDiagnosticsCenterCityName:21 -
+			********* Test case 7 started *********
+2024-11-08 16:59:54 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			-----Creating Driver-------
+2024-11-08 16:59:58 INFO  TC_002_GetDiagnosticsCenterCityName:48 -
+			-------Opening URL----------
+2024-11-08 17:00:38 INFO  TC_002_GetDiagnosticsCenterCityName:14 -
+			********* Test case 5 started *********
+2024-11-08 17:01:37 INFO  TC_002_GetDiagnosticsCenterCityName:20 -
+			********* Test case 5 Ended *********
+2024-11-08 17:01:37 INFO  TC_002_GetDiagnosticsCenterCityName:26 -
+			********* Test case 6 started *********
+2024-11-08 17:01:41 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			********* Test case 6 Ended *********
+2024-11-08 17:01:41 INFO  TC_002_GetDiagnosticsCenterCityName:21 -
+			********* Test case 7 started *********
+2024-11-08 17:03:50 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			-----Creating Driver-------
+2024-11-08 17:03:54 INFO  TC_002_GetDiagnosticsCenterCityName:48 -
+			-------Opening URL----------
+2024-11-08 17:04:27 INFO  TC_002_GetDiagnosticsCenterCityName:14 -
+			********* Test case 5 started *********
+2024-11-08 17:04:58 INFO  TC_002_GetDiagnosticsCenterCityName:20 -
+			********* Test case 5 Ended *********
+2024-11-08 17:04:58 INFO  TC_002_GetDiagnosticsCenterCityName:26 -
+			********* Test case 6 started *********
+2024-11-08 17:05:02 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			********* Test case 6 Ended *********
+2024-11-08 17:05:02 INFO  TC_002_GetDiagnosticsCenterCityName:21 -
+			********* Test case 7 started *********
+>>>>>>> ea637284de552754285fe5a5195040af9e5d8986
+2024-11-09 16:34:18 INFO  TC_001_NearBy_Hospetial:33 -
+			-----Creating Driver-------
+2024-11-09 16:34:23 INFO  TC_001_NearBy_Hospetial:48 -
+			-------Opening URL----------
+2024-11-09 16:34:26 INFO  TC_001_NearBy_Hospetial:23 -
+			********Starting Test Case 1 ***********
+2024-11-09 16:34:26 INFO  TC_001_NearBy_Hospetial:26 -
+			****Test case 1 Ended ********
+2024-11-09 16:34:26 INFO  TC_001_NearBy_Hospetial:31 -
+			********* Test Case 2 Started *********
+2024-11-09 16:34:30 INFO  TC_001_NearBy_Hospetial:34 -
+			****Test case 2 Ended ********
+2024-11-09 16:34:30 INFO  TC_001_NearBy_Hospetial:39 -
+			********* Test Case 3 Started *********
+2024-11-09 16:34:32 INFO  TC_001_NearBy_Hospetial:45 -
+			****Test case 3 Ended ********
+2024-11-09 16:34:32 INFO  TC_001_NearBy_Hospetial:50 -
+			*************Test case 4 starting************
+2024-11-09 16:35:19 INFO  TC_001_NearBy_Hospetial:53 -
+			********* Hospetial List obtained *********
+2024-11-09 16:35:19 INFO  TC_001_NearBy_Hospetial:54 -
+			**********Test Case 4 Ended*************
+2024-11-09 16:35:19 INFO  TC_001_NearBy_Hospetial:14 -
+			********* Test case 5 started *********
+2024-11-09 16:35:21 INFO  TC_001_NearBy_Hospetial:20 -
+			********* Test case 5 Ended *********
+2024-11-09 16:35:21 INFO  TC_001_NearBy_Hospetial:26 -
+			********* Test case 6 started *********
+2024-11-09 16:35:23 INFO  TC_001_NearBy_Hospetial:21 -
+			********* Test case 7 started *********
+2024-11-09 16:35:24 INFO  TC_001_NearBy_Hospetial:31 -
+			********* Test case 7 Ended *********
+2024-11-09 16:38:41 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			-----Creating Driver-------
+2024-11-09 16:38:51 INFO  TC_002_GetDiagnosticsCenterCityName:48 -
+			-------Opening URL----------
+2024-11-09 16:38:54 INFO  TC_002_GetDiagnosticsCenterCityName:14 -
+			********* Test case 5 started *********
+2024-11-09 16:38:55 INFO  TC_002_GetDiagnosticsCenterCityName:20 -
+			********* Test case 5 Ended *********
+2024-11-09 16:38:55 INFO  TC_002_GetDiagnosticsCenterCityName:26 -
+			********* Test case 6 started *********
+2024-11-09 16:38:57 INFO  TC_002_GetDiagnosticsCenterCityName:21 -
+			********* Test case 7 started *********
+2024-11-09 16:38:58 INFO  TC_002_GetDiagnosticsCenterCityName:31 -
+			********* Test case 7 Ended *********
+2024-11-09 16:40:31 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			-----Creating Driver-------
+2024-11-09 16:40:33 INFO  TC_002_GetDiagnosticsCenterCityName:48 -
+			-------Opening URL----------
+2024-11-09 16:40:35 INFO  TC_002_GetDiagnosticsCenterCityName:14 -
+			********* Test case 5 started *********
+2024-11-09 16:40:36 INFO  TC_002_GetDiagnosticsCenterCityName:20 -
+			********* Test case 5 Ended *********
+2024-11-09 16:40:36 INFO  TC_002_GetDiagnosticsCenterCityName:26 -
+			********* Test case 6 started *********
+2024-11-09 16:40:43 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			********* Test case 6 Ended *********
+2024-11-09 16:40:43 INFO  TC_002_GetDiagnosticsCenterCityName:21 -
+			********* Test case 7 started *********
+2024-11-09 16:40:44 INFO  TC_002_GetDiagnosticsCenterCityName:31 -
+			********* Test case 7 Ended *********
+2024-11-09 16:42:07 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			-----Creating Driver-------
+2024-11-09 16:42:09 INFO  TC_002_GetDiagnosticsCenterCityName:48 -
+			-------Opening URL----------
+2024-11-09 16:42:11 INFO  TC_002_GetDiagnosticsCenterCityName:14 -
+			********* Test case 5 started *********
+2024-11-09 16:42:12 INFO  TC_002_GetDiagnosticsCenterCityName:20 -
+			********* Test case 5 Ended *********
+2024-11-09 16:42:12 INFO  TC_002_GetDiagnosticsCenterCityName:26 -
+			********* Test case 6 started *********
+2024-11-09 16:42:21 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			********* Test case 6 Ended *********
+2024-11-09 16:42:21 INFO  TC_002_GetDiagnosticsCenterCityName:21 -
+			********* Test case 7 started *********
+2024-11-09 16:42:23 INFO  TC_002_GetDiagnosticsCenterCityName:31 -
+			********* Test case 7 Ended *********
+2024-11-09 16:42:49 INFO  TC_002_GetDiagnosticsCenterCityName:33 -
+			-----Creating Driver-------
+2024-11-09 16:42:51 INFO  TC_002_GetDiagnosticsCenterCityName:48 -
+			-------Opening URL----------
+2024-11-09 16:42:52 INFO  TC_002_GetDiagnosticsCenterCityName:14 -
+			********* Test case 5 started *********
+2024-11-09 16:42:54 INFO  TC_002_GetDiagnosticsCenterCityName:20 -
+			********* Test case 5 Ended *********
+2024-11-09 16:42:54 INFO  TC_002_GetDiagnosticsCenterCityName:26 -
+			********* Test case 6 started *********
+2024-11-09 16:42:55 INFO  TC_002_GetDiagnosticsCenterCityName:21 -
+			********* Test case 7 started *********
+2024-11-09 16:42:57 INFO  TC_002_GetDiagnosticsCenterCityName:31 -
 			********* Test case 7 Ended *********
