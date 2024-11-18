@@ -49,7 +49,7 @@ public class HospetialPage extends BaseClass {
 	}
 
 	public void SetLocation() {
-		locationInput.sendKeys("Bangalore");
+		locationInput.sendKeys("Bangalo");
 	}
 
 	public void BangloreLocationSelection() {
@@ -76,7 +76,6 @@ public class HospetialPage extends BaseClass {
 			Amenities = driver.findElements(By.xpath("//div[@data-qa-id=\"amenities_list\"]//span"));
 			for(WebElement elem : Amenities) {
 				if(elem.getText().equals("24X7 Pharmacy" ) || elem.getText().equalsIgnoreCase("Parking")) {
-//					System.out.println(elem.getText());
 					count++;
 				}
 			}

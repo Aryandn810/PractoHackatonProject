@@ -6,6 +6,7 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObject.HomePage;
@@ -22,7 +23,9 @@ public class TC_001_NearBy_Hospetial extends BaseClass {
 	public void validationgPagePractoPage() {
 		logger.info("********Starting Test Case 1 ***********");
 		HomePage hm = new HomePage(driver);
-//		Assert.assertEquals(hm.getTitle(), "Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests");
+		String actual_title = "Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests";
+		String expected_title = hm.getTitle();
+		Assert.assertEquals(actual_title, expected_title);
 		logger.info("****Test case 1 Ended ********");
 	}
 	

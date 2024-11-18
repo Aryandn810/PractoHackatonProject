@@ -26,10 +26,11 @@ public class TC_003_WellnessCare extends BaseClass {
 		List<String> window  = new ArrayList<>(windows);
 		String childWindow = window.get(1);
 		driver.switchTo().window(childWindow);
-		String title = "Employee Health | Corporate Health & Wellness Plans | Practo";
 		WellnessPage wp = new WellnessPage(driver);
+		String actual_url = "https://www.practo.com/plus/corporate";
+		String expected_url = wp.getCurrentUrl();
+		Assert.assertEquals(actual_url, expected_url);
 		logger.info("********* Test case 7 Ended *********");
-//		Assert.assertEquals(title, wp.getTitle());
 	}
 	
 	@Test(priority = 2,groups = {"Regression"})

@@ -22,7 +22,7 @@
 					<version>3.5.2</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>groping.xml</suiteXmlFile>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>

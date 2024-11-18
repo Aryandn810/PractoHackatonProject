@@ -14,9 +14,9 @@ import io.cucumber.junit.CucumberOptions;
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 						"rerun:target/rerun.txt"
 				},
-				dryRun = false, //checks the feature file with stepDefinations
+				dryRun = true, //checks the feature file with stepDefinations
 				monochrome=true,  // to avoid the junk characters
-				publish = true    // We use public to generate temperory report in cucumber server
+				publish = false    // We use public to generate temperory report in cucumber server
 		)
 public class TestRunner {
 

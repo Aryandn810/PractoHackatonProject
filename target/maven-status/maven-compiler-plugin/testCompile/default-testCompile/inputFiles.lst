@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 C:\Users\2361593\eclipse-workspace\HackathonProject\src\test\java\pageObject\BaseClass.java
 C:\Users\2361593\eclipse-workspace\HackathonProject\src\test\java\pageObject\HomePage.java
 C:\Users\2361593\eclipse-workspace\HackathonProject\src\test\java\pageObject\HospetialPage.java
@@ -14,20 +13,3 @@ C:\Users\2361593\eclipse-workspace\HackathonProject\src\test\java\TestRunner\Tes
 C:\Users\2361593\eclipse-workspace\HackathonProject\src\test\java\Utilities\ExcelUtilitiy.java
 C:\Users\2361593\eclipse-workspace\HackathonProject\src\test\java\Utilities\ExtentReportManager.java
 C:\Users\2361593\eclipse-workspace\HackathonProject\src\test\java\Utilities\ScreenshotUtility.java
-=======
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\pageObject\BaseClass.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\pageObject\HomePage.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\pageObject\HospetialPage.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\pageObject\SurgeriesPage.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\pageObject\WellnessPage.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\StepDefinations\DriverSetup.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\StepDefinations\WellnessPlanDefination.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\testBase\BaseClass.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\testCase\TC_001_NearBy_Hospetial.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\testCase\TC_002_GetDiagnosticsCenterCityName.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\testCase\TC_003_WellnessCare.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\TestRunner\TestRunner.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\Utilities\ExcelUtilitiy.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\Utilities\ExtentReportManager.java
-C:\Users\aryan\eclipse-workspace\PractoHackatonProject\src\test\java\Utilities\ScreenshotUtility.java
->>>>>>> 0db6d405700263e897f9dcca4cc3d06ebd4fafa9

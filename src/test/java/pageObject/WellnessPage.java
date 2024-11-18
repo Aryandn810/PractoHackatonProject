@@ -24,8 +24,8 @@ public class WellnessPage extends BaseClass{
 	@FindBy(id="interestedIn")
 	WebElement intrestedInDropDown;
 	
-	public String getTitle() {
-		return driver.getTitle();
+	public String getCurrentUrl() {
+		return driver.getCurrentUrl();
 	}
 	
 	public void setName(String name) {
@@ -46,6 +46,7 @@ public class WellnessPage extends BaseClass{
 	public void setOrganizationDropdow(String value) {
 		Select select = new Select(organizationSizaDropDown);
 		select.selectByValue(value);
+		
 	}
 	
 	public void SetIntestedINDropDow(String value) {

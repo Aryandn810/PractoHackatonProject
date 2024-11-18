@@ -15,19 +15,10 @@
       <class name="testCase.TC_002_GetDiagnosticsCenterCityName">
         <methods>
           <include name="tearDown"/>
-          <include name="ValidatingSurgeriPage"/>
           <include name="getMainCityNamesofDiagnosticsCenter"/>
           <include name="getDriver"/>
         </methods>
       </class> <!-- testCase.TC_002_GetDiagnosticsCenterCityName -->
-      <class name="testCase.TC_003_WellnessCare">
-        <methods>
-          <include name="tearDown"/>
-          <include name="validateWellnessPage"/>
-          <include name="getDriver"/>
-          <include name="ScheduleDmo"/>
-        </methods>
-      </class> <!-- testCase.TC_003_WellnessCare -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

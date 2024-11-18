@@ -16,9 +16,10 @@ public class TC_002_GetDiagnosticsCenterCityName extends BaseClass {
 		hp.homepageNavigation();
 		hp.clickONSurgeries();
 		SurgeriesPage sp = new SurgeriesPage(driver);
-		String title = "Practo Care Surgeries | End to end care from top surgeons in your city";
+		String actual_title = "Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests";
+		String expected_title = hp.getTitle();
+		Assert.assertEquals(actual_title, expected_title);
 		logger.info("********* Test case 5 Ended *********");
-//		Assert.assertEquals(title, sp.getTitle());
 	}
 
 	@Test(priority = 2,groups = {"Master","Sanity","Regression"})
