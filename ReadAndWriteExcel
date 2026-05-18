@@ -1,0 +1,61 @@
+package Utilities;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class IteamListReadAndUpdate {
+
+	public List<String> getExcelData() throws IOException {
+		XSSFRow row;
+		String destination = System.getProperty("user.dir") + "\\src\\test\\resources\\Iteams.xlsx";
+		FileInputStream file = new FileInputStream(destination);
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+		XSSFSheet sheet = workbook.getSheet("Sheet0");
+		List<String> itemsList = new ArrayList<>();
+		int totalRowCount = sheet.getPhysicalNumberOfRows();
+		int totalColCount = sheet.getRow(0).getPhysicalNumberOfCells();
+		System.out.println(totalRowCount);
+		for (int i = 1; i < totalRowCount; i++) {
+			row = sheet.getRow(i);
+			XSSFCell cellValue = row.getCell(0);
+			itemsList.add(cellValue.toString());
+		}
+		
+		return itemsList;
+	}
+
+	public static void writeExcelData(List<String[]> dataToWrite) throws IOException {
+		String destination = System.getProperty("user.dir") + "\\src\\test\\resources\\Iteams.xlsx";
+		FileInputStream file = new FileInputStream(destination);
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+		XSSFSheet sheet = workbook.getSheet("Sheet0");
+		int totalRowCount = sheet.getPhysicalNumberOfRows();
+		// Sample data to write (you can replace with dynamic values)
+
+		for (int i = 1; i<4;i++) {
+			XSSFRow row = sheet.getRow(i);
+			// Create/write values in columns 18–21
+			for (int j = 0; j < 4; j++) {
+				XSSFCell cell = row.createCell(18 + j);
+				cell.setCellValue(dataToWrite.get(i - 1)[j]);	
+			}
+		}
+
+		file.close();
+		FileOutputStream outFile = new FileOutputStream(destination);
+		workbook.write(outFile);
+		outFile.close();
+		workbook.close();
+
+		System.out.println("Data written successfully to columns 18–21");
+	}
+
+}
