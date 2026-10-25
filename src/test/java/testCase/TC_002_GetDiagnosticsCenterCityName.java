@@ -25,7 +25,6 @@ public class TC_002_GetDiagnosticsCenterCityName extends BaseClass {
 	}
 
 	@Test(priority = 2,groups = {"Master","Sanity","Regression"})
-	//adding
 	public void getMainCityNamesofDiagnosticsCenter() {
 		logger.info("********* Test case 6 started *********");
 		SurgeriesPage sp = new SurgeriesPage(driver);
