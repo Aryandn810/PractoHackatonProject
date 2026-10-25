@@ -21,6 +21,7 @@ public class TC_002_GetDiagnosticsCenterCityName extends BaseClass {
 		Assert.assertEquals(actual_title, expected_title);
 		logger.info("********* Test case 5 Ended *********");
 		//Helo
+		//line1
 		//line2
 	}
 
