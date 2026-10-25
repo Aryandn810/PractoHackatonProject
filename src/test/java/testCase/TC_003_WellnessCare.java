@@ -15,7 +15,7 @@ import pageObject.WellnessPage;
 import testBase.BaseClass;
 
 public class TC_003_WellnessCare extends BaseClass {
-	
+	//starting test
 	@Test(priority = 1,groups = {"Regression"})
 	public void validateWellnessPage() {
 		logger.info("********* Test case 7 started *********");
