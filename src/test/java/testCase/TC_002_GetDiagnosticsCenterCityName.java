@@ -20,7 +20,8 @@ public class TC_002_GetDiagnosticsCenterCityName extends BaseClass {
 		String expected_title = hp.getTitle();
 		Assert.assertEquals(actual_title, expected_title);
 		logger.info("********* Test case 5 Ended *********");
-		//Hello
+		//Helo
+		//line2
 	}
 
 	@Test(priority = 2,groups = {"Master","Sanity","Regression"})
